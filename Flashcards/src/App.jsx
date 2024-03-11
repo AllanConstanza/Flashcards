@@ -1,36 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import './App.css';
+import FlashcardList from './FlashcardList'; // Add this import statement
 
-//Function App
-function App() {
-  const [count, setCount] = useState(0)
+const cards = {
+  title: "Math Flashcards",
+  description: "Practice your math skills with these flashcards!",
+  cards: [
+    { question: '2 + 2', answer: '4' },
+    { question: '5 x 6', answer: '30' },
+    { question: '10 - 3', answer: '7' },
+    // Add more cards as needed
+  ]
+};
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="container">
+      <div className="header">
+        <h1 className="title">Flashcards</h1>
+        <p className="description">Learn and practice with flashcards!</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <FlashcardList cardSet={cards} />
+    </div>
+  );
+};
 
-export default App
+export default App; // Ensure App component is exported
