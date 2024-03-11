@@ -35,7 +35,7 @@ Here's a walkthrough of implemented required features:
       <p>Library | Loom - 10 March 2024 - Watch Video</p>
     </a>
     <a href="https://www.loom.com/share/af03c2dcc849450e84c96f25c8c1ba87">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/af03c2dcc849450e84c96f25c8c1ba87-with-play.gif">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/af03c2dcc849450e84c96f25c8c1ba87-1710131729700-with-play.gif">
     </a>
   </div>
 
