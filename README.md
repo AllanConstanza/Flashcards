@@ -48,7 +48,7 @@ I struggled to work with useState(). It took a lot of online resources to get a 
 
 ## License
 
-    Copyright [yyyy] [Allan Constanza Aguirre]
+    Copyright [2024] [Allan Constanza Aguirre]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
