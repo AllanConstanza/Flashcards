@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import FlashcardList from './FlashcardList'; // Add this import statement
+import FlashcardList from './FlashcardList'; 
 
 const cards = {
   title: "Math Flashcards",
@@ -9,7 +9,9 @@ const cards = {
     { question: '2 + 2', answer: '4' },
     { question: '5 x 6', answer: '30' },
     { question: '10 - 3', answer: '7' },
-    // Add more cards as needed
+    { question: '10 * 3', answer: '30' },
+    { question: '4*9', answer: '36' }
+    
   ]
 };
 
@@ -17,7 +19,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1 className="title">Flashcards</h1>
+        <h1 className="title">Flashcards for Kids</h1>
         <p className="description">Learn and practice with flashcards!</p>
       </div>
       <FlashcardList cardSet={cards} />
@@ -25,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App; // Ensure App component is exported
+export default App; 

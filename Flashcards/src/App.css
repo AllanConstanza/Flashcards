@@ -11,6 +11,7 @@ body {
 .container {
   max-width: 800px;
   padding: 40px 20px;
+  
 }
 
 .header {
@@ -21,12 +22,12 @@ body {
 .title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ffffff;
+  color: #02e1fa;
 }
 
 .description {
   font-size: 1.2rem;
-  color: #666;
+  color: #ffffff;
 }
 
 .card {
