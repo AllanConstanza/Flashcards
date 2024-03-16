@@ -1,8 +1,8 @@
-# Web Development Project 2 - Flashcards
+# Web Development Project 3 - Flashcards Part 2
 
 Submitted by: Allan Constanza Aguirre
 
-This web app: Math Flashcards for children
+This web app: Flashcards for Kids
 
 Time spent: 4 hours spent in total
 
@@ -10,41 +10,42 @@ Time spent: 4 hours spent in total
 
 The following **required** functionality is completed:
 
-- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [X] **A list of card pairs is created**
-- [X] **Clicking on the card shows the corresponding component of the information pair**
-- [X] **Clicking the next button displays a random new card**
+- [X] **The user can enter their guess in a box before seeing the flipside of the card**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [X] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+I added more flashcards. 
+
+
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
 <div>
-    <a href="https://www.loom.com/share/af03c2dcc849450e84c96f25c8c1ba87">
-      <p>Library | Loom - 10 March 2024 - Watch Video</p>
+    <a href="https://www.loom.com/share/ddaedfa7d59a431fba85bc93b3fb4b7e">
+      <p>Vite + React - 15 March 2024 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/af03c2dcc849450e84c96f25c8c1ba87">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/af03c2dcc849450e84c96f25c8c1ba87-1710131729700-with-play.gif">
+    <a href="https://www.loom.com/share/ddaedfa7d59a431fba85bc93b3fb4b7e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ddaedfa7d59a431fba85bc93b3fb4b7e-with-play.gif">
     </a>
   </div>
 
-GIF created with:  
-Kap
+GIF created with Loom 
 
 ## Notes
 
-I struggled to work with useState(). It took a lot of online resources to get a better understanding of it. I also wasn't able to give each flashcard a color based on their difficulty.
+I had trouble implementing the back button because each time I attempted to do so, it would do the same function as the next button, which was to return a random card. I eventually fixed this and added a shuffle button. I also had trouble with useState().
 
 ## License
 
@@ -61,3 +62,12 @@ I struggled to work with useState(). It took a lot of online resources to get a 
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+
+
+
+
+
+
+
